@@ -6,9 +6,11 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  images: {
-    unoptimized: true,
-  },
+  output: 'export',
+  trailingSlash: true,
+  images: { unoptimized: true },
+  basePath: '/Portfolio',
+  assetPrefix: '/Portfolio/',
 }
 
 export default nextConfig
